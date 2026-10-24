@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="meta_title">MOSAFREEN | Premium Airline Travel, Flights, Visas, Air Cargo & Sea Travel</title>
+  <meta name="description" content="Saudi Arabia's premier travel & logistics platform: Airline-standard flight bookings, sea tickets, express air cargo, Umrah visas, family visits, work residency, family recruitment, security clearances, and China & India visas." data-i18n-ph="meta_description" />
+  <meta name="keywords" content="MOSAFREEN, Flight Booking Saudi Arabia, China Visa Saudi Arabia, India Visa, Express Air Cargo, Sea Freight, Red Sea Cruises, Luxury Hotels, Schengen Visa Riyadh Jeddah, Umrah Visas, Family Visit Visa" />
+  <meta name="author" content="MOSAFREEN" />
+
+  <!-- International SEO: Canonical & Hreflang -->
+  <link rel="canonical" href="https://mosafreen.com/en/" />
+  <link rel="alternate" hreflang="ar" href="https://mosafreen.com/ar/" />
+  <link rel="alternate" hreflang="en" href="https://mosafreen.com/en/" />
+  <link rel="alternate" hreflang="x-default" href="https://mosafreen.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="MOSAFREEN" />
+  <meta property="og:title" content="MOSAFREEN | Premium Airline Travel, Flights, Visas, Air Cargo & Sea Travel" />
+  <meta property="og:description" content="Saudi Arabia's premier platform for world-class airline bookings, sea tickets, express air freight, Umrah visas, residency permits, family recruitment, and China & India visas." />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:url" content="https://mosafreen.com/en/" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Google Fonts: Cairo for Arabic & Inter for English -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="../css/styles.css" />
+
+  <!-- Structured Data: Schema.org/TravelAgency -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TravelAgency",
+    "name": "MOSAFREEN Travel & Freight Logistics",
+    "alternateName": "MOSAFREEN",
+    "telephone": "+966565734063",
+    "email": "info@mosafreen.com",
+    "url": "https://mosafreen.com/en/",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "SA",
+      "addressRegion": "Riyadh & Jeddah Hubs"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "sameAs": [
+      "https://wa.me/966565734063"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ========================================================================
+       Header with MOSAFREEN Emblem & Bilingual Switcher
+       ======================================================================== -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="#home" class="brand-logo" aria-label="MOSAFREEN Homepage">
+        <div class="logo-icon">
+          <i class="fa-solid fa-plane-departure"></i>
+        </div>
+        <div class="brand-text-wrap">
+          <span class="brand-title" data-i18n="brand_name">MOSAFREEN</span>
+          <span class="brand-sub" data-i18n="brand_sub">مسافرين</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active" data-i18n="nav_home">Home</a>
+        <a href="#booking-panel" class="nav-link" data-i18n="nav_booking_panel">Booking Engine</a>
+        <a href="#services" class="nav-link" data-i18n="nav_services">Services</a>
+        <a href="#destinations" class="nav-link" data-i18n="nav_destinations">Curated Destinations</a>
+        <a href="#how-it-works" class="nav-link" data-i18n="nav_how_it_works">Client Journey</a>
+        <a href="#plans" class="nav-link" data-i18n="nav_plans">Memberships & Plans</a>
+        <a href="#faq" class="nav-link" data-i18n="nav_faq">FAQ</a>
+      </nav>
+
+      <!-- Header Actions: Language Switcher & WhatsApp CTA -->
+      <div class="header-actions">
+        <!-- Language Switcher: العربية | English -->
+        <div class="lang-switcher-pill" role="group" aria-label="Language Selector" data-i18n-aria="nav_lang_toggle_aria">
+          <a href="../ar/" class="lang-btn" data-lang="ar" aria-pressed="false" style="display:inline-block; line-height: 1.2;">العربية</a>
+          <span style="color: rgba(197, 168, 128, 0.4); font-size: 0.75rem;">|</span>
+          <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">English</button>
+        </div>
+
+        <button type="button" class="btn-header-cta" data-open-modal="bookingModal">
+          <i class="fa-solid fa-paper-plane"></i>
+          <span data-i18n="quick_inquiry">Quick Service Request</span>
+        </button>
+
+        <button type="button" class="mobile-toggle-btn" id="mobileMenuToggle" aria-label="Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer-overlay" id="mobileDrawerOverlay">
+    <div class="mobile-drawer" id="mobileDrawer">
+      <div>
+        <div class="drawer-header">
+          <div class="brand-logo">
+            <div class="logo-icon" style="width: 2.25rem; height: 2.25rem; font-size: 1.1rem;">
+              <i class="fa-solid fa-plane-departure"></i>
+            </div>
+            <div class="brand-text-wrap">
+              <span class="brand-title" style="font-size: 1.15rem;" data-i18n="brand_name">MOSAFREEN</span>
+            </div>
+          </div>
+          <button type="button" class="drawer-close-btn" id="drawerCloseBtn" aria-label="Close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+
+        <nav class="drawer-links">
+          <a href="#home" class="drawer-link" data-i18n="nav_home">Home</a>
+          <a href="#booking-panel" class="drawer-link" data-i18n="nav_booking_panel">Booking Engine</a>
+          <a href="#services" class="drawer-link" data-i18n="nav_services">Services</a>
+          <a href="#destinations" class="drawer-link" data-i18n="nav_destinations">Curated Destinations</a>
+          <a href="#how-it-works" class="drawer-link" data-i18n="nav_how_it_works">Client Journey</a>
+          <a href="#plans" class="drawer-link" data-i18n="nav_plans">Memberships & Plans</a>
+          <a href="#faq" class="drawer-link" data-i18n="nav_faq">FAQ</a>
+          <a href="#contact" class="drawer-link" data-i18n="nav_contact">Help & Contact</a>
+        </nav>
+      </div>
+
+      <div class="drawer-footer">
+        <div class="lang-switcher-pill" style="justify-content: center; width: 100%;">
+          <a href="../ar/" class="lang-btn" data-lang="ar">العربية</a>
+          <span style="color: rgba(197, 168, 128, 0.4); font-size: 0.75rem;">|</span>
+          <button type="button" class="lang-btn active" data-lang="en">English</button>
+        </div>
+        <a href="https://wa.me/966565734063" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-hero" style="width: 100%; justify-content: center; font-size: 0.95rem; padding: 0.8rem 1rem;">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span data-i18n="whatsapp_us">WhatsApp Concierge</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       Cinematic Aviation Hero Section
+       ======================================================================== -->
+  <section class="hero-section" id="home">
+    <div class="hero-glow-1"></div>
+    <div class="hero-glow-2"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge-pill" data-i18n="hero_badge">
+          ✨ Saudi Arabia's Premier Airline-Standard Travel & Freight Platform
+        </div>
+
+        <h1 class="hero-headline" data-i18n-html="hero_title">
+          Soar to Extraordinary Horizons with <span class="accent">MOSAFREEN</span>
+        </h1>
+
+        <p class="hero-description" data-i18n="hero_desc">
+          Experience travel and logistics inspired by the world's most prestigious international airlines: Flexible flight bookings, luxury sea voyages, precision air cargo, and complete facilitation for Umrah, family visits, work residency, family recruitment, and specialized China & India visas.
+        </p>
+
+        <div class="hero-action-btns">
+          <a href="https://wa.me/966565734063" class="btn-whatsapp-hero" target="_blank" rel="noopener noreferrer" data-wa-service="flight">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span data-i18n="hero_cta_whatsapp">WhatsApp Travel Advisor</span>
+          </a>
+
+          <a href="#services" class="btn-secondary-hero">
+            <i class="fa-solid fa-compass"></i>
+            <span data-i18n="hero_cta_services">Explore Services & Destinations</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Trust Metrics -->
+      <div class="hero-stats-row">
+        <div class="stat-item">
+          <div class="stat-number" data-i18n="hero_stat_clients">50,000+</div>
+          <div class="stat-label" data-i18n="hero_stat_clients_label">Discerning Travelers & Clients</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-i18n="hero_stat_countries">140+</div>
+          <div class="stat-label" data-i18n="hero_stat_countries_label">Global Airport Destinations</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-i18n="hero_stat_approval">99.6%</div>
+          <div class="stat-label" data-i18n="hero_stat_approval_label">Consular & Visa Success Rate</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-i18n="hero_stat_support">24/7</div>
+          <div class="stat-label" data-i18n="hero_stat_support_label">Continuous Concierge Support</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Airline-Inspired Booking Engine Panel (Inspired by Etihad Airways)
+       ======================================================================== -->
+  <section id="booking-panel" style="position: relative; z-index: 20; padding-bottom: 2rem;">
+    <div class="container">
+      <div class="airline-booking-panel">
+        <div class="panel-header-desc">
+          <div class="panel-title-text">
+            <h3 data-i18n="panel_title">Airline-Inspired Booking & Service Request Engine</h3>
+            <p data-i18n="panel_subtitle">Specify your journey or freight parameters to receive verified options instantly on official WhatsApp</p>
+          </div>
+        </div>
+
+        <!-- 4 Primary Service Tabs -->
+        <div class="booking-tabs-nav" role="tablist">
+          <button type="button" class="booking-tab-btn active" data-target="paneFlights" role="tab">
+            <i class="fa-solid fa-plane"></i>
+            <span data-i18n="panel_tab_flights">Flight Booking</span>
+          </button>
+          <button type="button" class="booking-tab-btn" data-target="paneSea" role="tab">
+            <i class="fa-solid fa-ship"></i>
+            <span data-i18n="panel_tab_sea">Sea Tickets</span>
+          </button>
+          <button type="button" class="booking-tab-btn" data-target="paneVisas" role="tab">
+            <i class="fa-solid fa-passport"></i>
+            <span data-i18n="panel_tab_visas">Visas & Permits</span>
+          </button>
+          <button type="button" class="booking-tab-btn" data-target="paneCargo" role="tab">
+            <i class="fa-solid fa-boxes-packing"></i>
+            <span data-i18n="panel_tab_cargo">Air Cargo & Freight</span>
+          </button>
+        </div>
+
+        <!-- Tab 1: Flights (With Swap, Cabin Class, Dates) -->
+        <div class="booking-pane active" id="paneFlights">
+          <div class="flight-sub-options">
+            <div class="trip-type-pill" role="group">
+              <button type="button" class="trip-type-btn active" data-trip="round" data-i18n="trip_round">Round Trip</button>
+              <button type="button" class="trip-type-btn" data-trip="oneway" data-i18n="trip_oneway">One Way</button>
+              <button type="button" class="trip-type-btn" data-trip="multi" data-i18n="trip_multi">Multi-City</button>
+            </div>
+          </div>
+
+          <form class="airline-grid" id="flightSearchForm">
+            <!-- Route Pair with Swap Button -->
+            <div class="route-pair-container">
+              <div class="form-field-group">
+                <label class="field-label" data-i18n="field_origin_flight">Origin Airport / City</label>
+                <input type="text" id="panelFlightOrigin" class="field-input" value="Riyadh (RUH)" data-i18n-val="val_flight_origin" placeholder="Riyadh (RUH)" />
+              </div>
+              <button type="button" class="btn-swap-airports" id="btnSwapAirports" aria-label="Swap Departure & Destination" data-i18n-aria="swap_airports">
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+              </button>
+              <div class="form-field-group">
+                <label class="field-label" data-i18n="field_dest_flight">Destination Airport / City</label>
+                <input type="text" id="panelFlightDest" class="field-input" value="Guangzhou - China (CAN)" data-i18n-val="val_flight_dest" placeholder="Guangzhou (CAN) / London (LHR)" />
+              </div>
+            </div>
+
+            <!-- Departure Date -->
+            <div class="form-field-group col-3">
+              <label class="field-label" data-i18n="field_depart_date">Departure Date</label>
+              <input type="date" id="panelFlightDepartDate" class="field-input" value="2026-11-15" />
+            </div>
+
+            <!-- Return Date -->
+            <div class="form-field-group col-3" id="flightReturnGroup">
+              <label class="field-label" data-i18n="field_return_date">Return Date</label>
+              <input type="date" id="panelFlightReturnDate" class="field-input" value="2026-11-25" />
+            </div>
+
+            <!-- Passengers -->
+            <div class="form-field-group col-4">
+              <label class="field-label" data-i18n="field_passengers_count">Passengers</label>
+              <select id="panelFlightPassengers" class="field-select">
+                <option value="1 Adult" data-i18n="flight_passengers_1">1 Adult</option>
+                <option value="2 Adults" data-i18n="flight_passengers_2">2 Adults</option>
+                <option value="Family (2 Adults + 2 Children)" data-i18n="flight_passengers_family">Family (2 Adults + 2 Children)</option>
+                <option value="Corporate Group (5+ Passengers)" data-i18n="flight_passengers_group">Corporate Group (5+ Passengers)</option>
+              </select>
+            </div>
+
+            <!-- Cabin Class -->
+            <div class="form-field-group col-4">
+              <label class="field-label" data-i18n="field_cabin_class">Cabin Class</label>
+              <select id="panelFlightCabin" class="field-select">
+                <option value="Economy Class" data-i18n="cabin_economy">Economy Class</option>
+                <option value="Premium Economy" data-i18n="cabin_premium">Premium Economy</option>
+                <option value="Business Class" data-i18n="cabin_business">Business Class</option>
+                <option value="First Class" data-i18n="cabin_first">First Class</option>
+              </select>
+            </div>
+
+            <!-- Submit CTA -->
+            <div class="form-field-group col-4">
+              <button type="button" id="panelFlightSubmit" class="btn-airline-panel-submit">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span data-i18n="btn_search_flights_wa">Request Flight Options via WhatsApp</span>
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Tab 2: Sea Travel & Sea Tickets -->
+        <div class="booking-pane" id="paneSea">
+          <form class="airline-grid" id="seaSearchForm">
+            <div class="form-field-group col-3">
+              <label class="field-label" data-i18n="field_origin_sea">Departure Port</label>
+              <input type="text" id="panelSeaOrigin" class="field-input" value="Jeddah Islamic Port" data-i18n-val="val_sea_origin" placeholder="Jeddah Islamic Port / Yanbu" />
+            </div>
+            <div class="form-field-group col-3">
+              <label class="field-label" data-i18n="field_dest_sea">Arrival Port / Cruise Route</label>
+              <input type="text" id="panelSeaDest" class="field-input" value="Red Sea / Mediterranean" data-i18n-val="val_sea_dest" placeholder="Red Sea / Dubai / Alexandria" />
+            </div>
+            <div class="form-field-group col-2">
+              <label class="field-label" data-i18n="field_sea_date">Preferred Travel Date</label>
+              <input type="date" id="panelSeaDate" class="field-input" value="2026-12-01" />
+            </div>
+            <div class="form-field-group col-2">
+              <label class="field-label" data-i18n="field_sea_passengers">Passenger Count</label>
+              <select id="panelSeaPassengers" class="field-select">
+                <option value="2 Passengers" data-i18n="sea_passengers_2">2 Passengers</option>
+                <option value="1 Passenger" data-i18n="sea_passengers_1">1 Passenger</option>
+                <option value="Family (4 Guests)" data-i18n="sea_passengers_family">Family (4 Guests)</option>
+                <option value="VIP Suite Booking" data-i18n="sea_passengers_vip">VIP Suite Booking</option>
+              </select>
+            </div>
+            <div class="form-field-group col-4">
+              <label class="field-label" data-i18n="field_sea_cabin">Cabin / Service Classification</label>
+              <select id="panelSeaCabin" class="field-select">
+                <option value="Luxury Cruise Voyage (Red Sea / Mediterranean)" data-i18n="sea_opt_cruise">Luxury Cruise Voyage (Red Sea / Mediterranean)</option>
+                <option value="Passenger Ferry & Automobile Transit" data-i18n="sea_opt_passenger_ferry">Passenger Ferry & Automobile Transit</option>
+                <option value="Full Container Load (FCL)" data-i18n="sea_opt_fcl">Full Container Load (FCL)</option>
+                <option value="Less than Container Load (LCL)" data-i18n="sea_opt_lcl">Less than Container Load (LCL)</option>
+              </select>
+            </div>
+            <div class="form-field-group col-4">
+              <button type="button" id="panelSeaSubmit" class="btn-airline-panel-submit">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span data-i18n="btn_search_sea_wa">Request Sea Voyage via WhatsApp</span>
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Tab 3: Visas & Consular (Umrah, Family Visit, Work Residency, Family Recruitment, Security Approvals, China & India) -->
+        <div class="booking-pane" id="paneVisas">
+          <form class="airline-grid" id="visaSearchForm">
+            <div class="form-field-group col-4">
+              <label class="field-label" data-i18n="field_visa_category">Service Category / Visa Type</label>
+              <select id="panelVisaCategory" class="field-select">
+                <option value="umrah" data-i18n="visa_cat_umrah">Umrah Visas & Holy Sites Concierge</option>
+                <option value="family_visit" data-i18n="visa_cat_family_visit">Family Visit Visas (Issuance & Extension)</option>
+                <option value="work_residency" data-i18n="visa_cat_work_residency">Work Residency, Labor Permits & Sponsorship</option>
+                <option value="family_recruit" data-i18n="visa_cat_family_recruit">Family Recruitment & Dependent Visas</option>
+                <option value="security" data-i18n="visa_cat_security">Security Approvals & Travel Clearances</option>
+                <option value="china" data-i18n="visa_cat_china">China Visas (Business M / Tourist L / Work Z)</option>
+                <option value="india" data-i18n="visa_cat_india">India e-Visa (Tourist / Business / Medical)</option>
+                <option value="schengen" data-i18n="visa_cat_schengen">Schengen Visa & European Appointments</option>
+                <option value="uk_us" data-i18n="visa_cat_uk_us">UK (ETA) & USA Visas</option>
+              </select>
+            </div>
+            <div class="form-field-group col-3">
+              <label class="field-label" data-i18n="field_applicant_nationality">Applicant / Resident Nationality</label>
+              <input type="text" id="panelVisaNationality" class="field-input" value="Saudi Resident" data-i18n-val="val_visa_nationality" placeholder="Saudi Citizen / Resident" />
+            </div>
+            <div class="form-field-group col-2">
+              <label class="field-label" data-i18n="field_applicant_count">Number of Applicants</label>
+              <input type="number" id="panelVisaCount" class="field-input" value="1" min="1" max="50" />
+            </div>
+            <div class="form-field-group col-3">
+              <label class="field-label" data-i18n="field_target_date">Target Travel / Lodging Date</label>
+              <input type="date" id="panelVisaDate" class="field-input" value="2026-11-20" />
+            </div>
+            <div class="form-field-group col-8">
+              <label class="field-label" data-i18n="field_visa_notes">Additional Notes or Inquiries</label>
+              <input type="text" id="panelVisaNotes" class="field-input" placeholder="Specify profession, family relationship, or embassy appointment timeline..." />
+            </div>
+            <div class="form-field-group col-4">
+              <button type="button" id="panelVisaSubmit" class="btn-airline-panel-submit">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span data-i18n="btn_search_visas_wa">Request Visa Processing via WhatsApp</span>
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Tab 4: Air Cargo (With Dimensions L×W×H) -->
+        <div class="booking-pane" id="paneCargo">
+          <form class="airline-grid" id="cargoSearchForm">
+            <div class="form-field-group col-3">
+              <label class="field-label" data-i18n="field_cargo_origin">Origin Cargo Hub (From)</label>
+              <input type="text" id="panelCargoOrigin" class="field-input" value="China (Guangzhou)" data-i18n-val="val_cargo_origin" placeholder="China / Dubai / Europe" />
+            </div>
+            <div class="form-field-group col-3">
+              <label class="field-label" data-i18n="field_cargo_dest">Destination Hub (To)</label>
+              <input type="text" id="panelCargoDest" class="field-input" value="Saudi Arabia (King Khalid Int'l - RUH)" data-i18n-val="val_cargo_dest" placeholder="Riyadh / Jeddah / Dammam Airport" />
+            </div>
+            <div class="form-field-group col-2">
+              <label class="field-label" data-i18n="field_cargo_weight">Approx Weight (kg)</label>
+              <input type="number" id="panelCargoWeight" class="field-input" value="65" min="5" max="10000" />
+            </div>
+            <div class="form-field-group col-4">
+              <label class="field-label" data-i18n="field_cargo_dimensions">Approx Dimensions (L×W×H cm)</label>
+              <input type="text" id="panelCargoDimensions" class="field-input" value="60 × 40 × 40 cm" data-i18n-val="val_cargo_dimensions" placeholder="Length × Width × Height" />
+            </div>
+            <div class="form-field-group col-6">
+              <label class="field-label" data-i18n="field_cargo_category">Cargo Classification</label>
+              <select id="panelCargoCategory" class="field-select">
+                <option value="commercial" data-i18n="cargo_cat_commercial">Commercial General Cargo & Enterprise Goods</option>
+                <option value="excess" data-i18n="cargo_cat_excess">Personal Excess Luggage & Baggage</option>
+                <option value="urgent" data-i18n="cargo_cat_urgent">Urgent Documents, Diplomatic Pouches & Samples</option>
+                <option value="perishable" data-i18n="cargo_cat_perishable">Pharmaceuticals & Temperature-Sensitive Cargo</option>
+              </select>
+            </div>
+            <div class="form-field-group col-6">
+              <button type="button" id="panelCargoSubmit" class="btn-airline-panel-submit">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span data-i18n="btn_search_cargo_wa">Request Air Freight Quotation via WhatsApp</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Trust Bar: Hospitality & Accreditation
+       ======================================================================== -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-card">
+          <div class="trust-icon-box">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <div class="trust-info">
+            <h4 data-i18n="feature_1_title">Prestige Airline Hospitality Standards</h4>
+            <p data-i18n="feature_1_desc">Personalized attention to every journey detail, rapid turnaround, and the highest echelon of consular and logistics reliability.</p>
+          </div>
+        </div>
+
+        <div class="trust-card">
+          <div class="trust-icon-box" style="background: rgba(37, 211, 102, 0.15); color: #128c7e;">
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+          <div class="trust-info">
+            <h4 data-i18n="feature_2_title">24/7 Dedicated WhatsApp Concierge</h4>
+            <p data-i18n="feature_2_desc">Professional travel advisors and logistics directors available round the clock without automated bottlenecks.</p>
+          </div>
+        </div>
+
+        <div class="trust-card">
+          <div class="trust-icon-box" style="background: rgba(197, 168, 128, 0.25); color: var(--color-bronze-dark);">
+            <i class="fa-solid fa-passport"></i>
+          </div>
+          <div class="trust-info">
+            <h4 data-i18n="feature_3_title">Fast-Track Consular & Governmental Processing</h4>
+            <p data-i18n="feature_3_desc">Authoritative expertise across visa platforms, security clearances, and recruitment with an exemplary approval record.</p>
+          </div>
+        </div>
+
+        <div class="trust-card">
+          <div class="trust-icon-box">
+            <i class="fa-solid fa-handshake-angle"></i>
+          </div>
+          <div class="trust-info">
+            <h4 data-i18n="feature_4_title">Absolute Transparency & Preferential Tariffs</h4>
+            <p data-i18n="feature_4_desc">Direct carrier partnerships guaranteeing competitive official rates and cost-effective logistics solutions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       The 9 Distinct Service Categories (Mandatory Complete Set)
+       ======================================================================== -->
+  <section class="section-distinct-services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge" data-i18n="services_section_badge">Comprehensive Service Portfolio</span>
+        <h2 class="section-title" data-i18n="services_section_title">Exclusive MOSAFREEN Services — Tailored to Your Ambitions</h2>
+        <p class="section-subtitle" data-i18n="services_section_subtitle">Nine specialized categories spanning international passenger aviation, express freight logistics, and expedited governmental & consular services.</p>
+      </div>
+
+      <div class="services-9-grid">
+        <!-- 1. Flight Bookings -->
+        <div class="distinct-service-card" id="srv-flights">
+          <div>
+            <div class="srv-icon-badge">
+              <i class="fa-solid fa-plane-up"></i>
+            </div>
+            <h3 class="srv-card-title" data-i18n="srv_flights_title">International & Domestic Flight Bookings</h3>
+            <p class="srv-card-desc" data-i18n="srv_flights_desc">Airline reservations across world-class global carriers with preferential corporate tariffs, VIP charter coordination, and flexible date reissuance.</p>
+            <ul class="srv-bullets">
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_flights_point1">Direct booking access with premier global & GCC airline networks</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_flights_point2">First, Business, and Economy cabins at competitive negotiated rates</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_flights_point3">Dedicated management for corporate delegates and family groups</span></li>
+            </ul>
+          </div>
+          <a href="https://wa.me/966565734063" class="btn-srv-whatsapp" data-wa-service="flight">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span data-i18n="srv_flights_cta">Request Flight Booking via WhatsApp</span>
+          </a>
+        </div>
+
+        <!-- 2. Sea Tickets & Cruises -->
+        <div class="distinct-service-card" id="srv-sea">
+          <div>
+            <div class="srv-icon-badge" style="color: #0284c7;">
+              <i class="fa-solid fa-ship"></i>
+            </div>
+            <h3 class="srv-card-title" data-i18n="srv_sea_title">Sea Tickets & Luxury Red Sea Cruises</h3>
+            <p class="srv-card-desc" data-i18n="srv_sea_desc">Passenger maritime ferry tickets and luxury cruise bookings across the Red Sea, Arabian Gulf, and Mediterranean ports.</p>
+            <ul class="srv-bullets">
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_sea_point1">Red Sea cruise voyages departing from Jeddah Islamic Port with luxury suites</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_sea_point2">Fast ferry tickets for passengers and vehicles across regional ports</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_sea_point3">5-star maritime hospitality with all-inclusive voyage itineraries</span></li>
+            </ul>
+          </div>
+          <a href="https://wa.me/966565734063" class="btn-srv-whatsapp" data-wa-service="sea">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span data-i18n="srv_sea_cta">Request Sea Voyage via WhatsApp</span>
+          </a>
+        </div>
+
+        <!-- 3. Air Cargo -->
+        <div class="distinct-service-card" id="srv-cargo">
+          <div>
+            <div class="srv-icon-badge" style="color: #059669;">
+              <i class="fa-solid fa-plane-arrival"></i>
+            </div>
+            <h3 class="srv-card-title" data-i18n="srv_cargo_title">Express Air Cargo & Freight Logistics</h3>
+            <p class="srv-card-desc" data-i18n="srv_cargo_desc">Rapid door-to-door and airport-to-airport air cargo solutions for commercial merchandise, excess luggage, perishable shipments, and urgent diplomatic cargo.</p>
+            <ul class="srv-bullets">
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_cargo_point1">Direct freight handling through Riyadh, Jeddah, Dammam & global hub airports</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_cargo_point2">Professional customs clearance and end-to-end milestone tracking</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_cargo_point3">Cost-effective solutions for excess passenger luggage exceeding airline limits</span></li>
+            </ul>
+          </div>
+          <a href="https://wa.me/966565734063" class="btn-srv-whatsapp" data-wa-service="cargo">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span data-i18n="srv_cargo_cta">Request Air Freight Quotation via WhatsApp</span>
+          </a>
+        </div>
+
+        <!-- 4. Umrah Visas -->
+        <div class="distinct-service-card" id="srv-umrah">
+          <div>
+            <div class="srv-icon-badge" style="color: var(--color-gold);">
+              <i class="fa-solid fa-kaaba"></i>
+            </div>
+            <h3 class="srv-card-title" data-i18n="srv_umrah_title">Umrah Visas & Holy Sites Concierge</h3>
+            <p class="srv-card-desc" data-i18n="srv_umrah_desc">Comprehensive Umrah visa processing for pilgrims worldwide, accompanied by premier Haram-view hospitality and luxury private ground transit.</p>
+            <ul class="srv-bullets">
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_umrah_point1">Fast electronic visa issuance for international and GCC pilgrims</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_umrah_point2">Exclusive hotel reservations overlooking the Holy Kaaba and Prophet's Mosque</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_umrah_point3">VIP meet, greet, and private transfer services at Jeddah & Madinah airports</span></li>
+            </ul>
+          </div>
+          <a href="https://wa.me/966565734063" class="btn-srv-whatsapp" data-wa-service="umrah">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span data-i18n="srv_umrah_cta">Request Umrah Visa via WhatsApp</span>
+          </a>
+        </div>
+
+        <!-- 5. Family Visits -->
+        <div class="distinct-service-card" id="srv-family-visit">
+          <div>
+            <div class="srv-icon-badge" style="color: #e11d48;">
+              <i class="fa-solid fa-people-roof"></i>
+            </div>
+            <h3 class="srv-card-title" data-i18n="srv_family_visit_title">Family Visit Visas (Issuance & Extension)</h3>
+            <p class="srv-card-desc" data-i18n="srv_family_visit_desc">End-to-end guidance and processing for family visit visa applications, Chamber of Commerce approvals, medical insurance, and regulatory validity extensions.</p>
+            <ul class="srv-bullets">
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_family_visit_point1">Precise document review and application lodging to avoid delays or refusal</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_family_visit_point2">Accredited medical insurance issuance compliant with Saudi border entry</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_family_visit_point3">Official in-Kingdom extension follow-ups in full regulatory compliance</span></li>
+            </ul>
+          </div>
+          <a href="https://wa.me/966565734063" class="btn-srv-whatsapp" data-wa-service="family_visit">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span data-i18n="srv_family_visit_cta">Request Family Visit Visa via WhatsApp</span>
+          </a>
+        </div>
+
+        <!-- 6. Work Residency -->
+        <div class="distinct-service-card" id="srv-work-residency">
+          <div>
+            <div class="srv-icon-badge" style="color: #4f46e5;">
+              <i class="fa-solid fa-id-card"></i>
+            </div>
+            <h3 class="srv-card-title" data-i18n="srv_work_residency_title">Work Residency, Labor Permits & Sponsorship</h3>
+            <p class="srv-card-desc" data-i18n="srv_work_residency_desc">Consultative and executive corporate services for new work visas, Iqama issuance and renewals, profession amendments, and official sponsorship transfers.</p>
+            <ul class="srv-bullets">
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_work_residency_point1">Preparation and attestation of employment contracts with authorized entities</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_work_residency_point2">Coordination of medical examinations and compliant labor insurance</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_work_residency_point3">Dedicated corporate compliance support for enterprises and entrepreneurs</span></li>
+            </ul>
+          </div>
+          <a href="https://wa.me/966565734063" class="btn-srv-whatsapp" data-wa-service="work_residency">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span data-i18n="srv_work_residency_cta">Inquire About Work Residency via WhatsApp</span>
+          </a>
+        </div>
+
+        <!-- 7. Family Recruitment -->
+        <div class="distinct-service-card" id="srv-family-recruit">
+          <div>
+            <div class="srv-icon-badge" style="color: #0284c7;">
+              <i class="fa-solid fa-house-chimney-user"></i>
+            </div>
+            <h3 class="srv-card-title" data-i18n="srv_family_recruit_title">Family Recruitment & Dependent Visas</h3>
+            <p class="srv-card-desc" data-i18n="srv_family_recruit_desc">Complete processing for resident family recruitment (wife and children), including attestation of credentials, official application lodging, and final visa release.</p>
+            <ul class="srv-bullets">
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_family_recruit_point1">Evaluation of profession and salary prerequisites with full documentation</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_family_recruit_point2">Attestation coordination with MOFA and home-country Saudi embassies</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_family_recruit_point3">Special family airline fare ticketing upon official visa issuance</span></li>
+            </ul>
+          </div>
+          <a href="https://wa.me/966565734063" class="btn-srv-whatsapp" data-wa-service="family_recruit">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span data-i18n="srv_family_recruit_cta">Request Family Recruitment via WhatsApp</span>
+          </a>
+        </div>
+
+        <!-- 8. Security Approvals -->
+        <div class="distinct-service-card" id="srv-security">
+          <div>
+            <div class="srv-icon-badge" style="color: #b45309;">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h3 class="srv-card-title" data-i18n="srv_security_title">Security Approvals & Travel Clearances</h3>
+            <p class="srv-card-desc" data-i18n="srv_security_desc">Facilitation of required security approvals and travel clearance documentation for regulated destinations, strictly through authorized official channels.</p>
+            <ul class="srv-bullets">
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_security_point1">Pre-travel regulatory advisory regarding entry requisites and bilateral clearances</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_security_point2">Meticulous application tracking for business executives, delegates, and residents</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_security_point3">Absolute data confidentiality and rigorous safeguarding of documentation</span></li>
+            </ul>
+          </div>
+          <a href="https://wa.me/966565734063" class="btn-srv-whatsapp" data-wa-service="security">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span data-i18n="srv_security_cta">Request Travel Clearances via WhatsApp</span>
+          </a>
+        </div>
+
+        <!-- 9. China & India Visas -->
+        <div class="distinct-service-card" id="srv-china-india">
+          <div>
+            <div class="srv-icon-badge" style="color: #dc2626;">
+              <i class="fa-solid fa-passport"></i>
+            </div>
+            <h3 class="srv-card-title" data-i18n="srv_china_india_title">China & India Specialized Fast-Track Visas</h3>
+            <p class="srv-card-desc" data-i18n="srv_china_india_desc">Saudi Arabia's premier desk for Chinese business (Canton Fair M), tourist, and work visas, alongside 48-hour expedited Indian electronic visas (e-Visa).</p>
+            <ul class="srv-bullets">
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_china_india_point1">China Business (M) visas backed by authorized official invitation letters</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_china_india_point2">100% digital Indian e-Visas issued rapidly within 48 business hours</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="srv_china_india_point3">Industry-leading approval rates with expedited VIP express processing available</span></li>
+            </ul>
+          </div>
+          <a href="https://wa.me/966565734063" class="btn-srv-whatsapp" data-wa-service="china_visa">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span data-i18n="srv_china_india_cta">Request China & India Visas via WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Curated Destinations (Etihad Editorial Style)
+       ======================================================================== -->
+  <section class="section-destinations" id="destinations">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge" data-i18n="dest_badge">Curated Global Destinations</span>
+        <h2 class="section-title" data-i18n="dest_title">Travel in Distinction to Premier Global Capitals</h2>
+        <p class="section-subtitle" data-i18n="dest_subtitle">Handpicked, bespoke itineraries for executives, discerning families, and adventurous pioneers</p>
+      </div>
+
+      <div class="destinations-grid">
+        <!-- Destination 1: China -->
+        <div class="destination-card">
+          <div class="dest-img-wrap">
+            <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=800&q=80" alt="China Guangzhou" loading="lazy" />
+            <span class="dest-tag-badge" data-i18n="dest_1_tag">Commerce & Trade</span>
+          </div>
+          <div class="dest-body">
+            <div>
+              <h3 class="dest-name" data-i18n="dest_1_name">Guangzhou & Beijing — China</h3>
+              <p class="dest-desc" data-i18n="dest_1_desc">Global commerce capital and home to the world-renowned Canton Fair. Express business visas, direct flights, and comprehensive cargo consolidation.</p>
+            </div>
+            <a href="https://wa.me/966565734063" class="btn-srv-whatsapp" data-wa-service="china_visa">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span data-i18n="inquire_now">Inquire Now</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Destination 2: India -->
+        <div class="destination-card">
+          <div class="dest-img-wrap">
+            <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=80" alt="India Taj Mahal" loading="lazy" />
+            <span class="dest-tag-badge" data-i18n="dest_2_tag">48-Hour Digital e-Visa</span>
+          </div>
+          <div class="dest-body">
+            <div>
+              <h3 class="dest-name" data-i18n="dest_2_name">New Delhi & Mumbai — India</h3>
+              <p class="dest-desc" data-i18n="dest_2_desc">A land of rich heritage, tech investment, and premium medical tourism. 100% digital e-Visa issued within 48 business hours.</p>
+            </div>
+            <a href="https://wa.me/966565734063" class="btn-srv-whatsapp" data-wa-service="india_visa">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span data-i18n="inquire_now">Inquire Now</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Destination 3: Europe / London -->
+        <div class="destination-card">
+          <div class="dest-img-wrap">
+            <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80" alt="London Europe" loading="lazy" />
+            <span class="dest-tag-badge" data-i18n="dest_3_tag">Luxury & Elegance</span>
+          </div>
+          <div class="dest-body">
+            <div>
+              <h3 class="dest-name" data-i18n="dest_3_name">London & Geneva — Europe</h3>
+              <p class="dest-desc" data-i18n="dest_3_desc">Premier European hubs for luxury shopping, retreat, and world-class healthcare. Fast-track Schengen and UK ETA facilitation.</p>
+            </div>
+            <a href="https://wa.me/966565734063" class="btn-srv-whatsapp" data-wa-service="flight">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span data-i18n="inquire_now">Inquire Now</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Destination 4: Red Sea Cruise -->
+        <div class="destination-card">
+          <div class="dest-img-wrap">
+            <img src="https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&w=800&q=80" alt="Red Sea Luxury Cruise" loading="lazy" />
+            <span class="dest-tag-badge" data-i18n="dest_4_tag">Cruise & Leisure</span>
+          </div>
+          <div class="dest-body">
+            <div>
+              <h3 class="dest-name" data-i18n="dest_4_name">Red Sea Luxury Cruise Voyages</h3>
+              <p class="dest-desc" data-i18n="dest_4_desc">Royal sea voyages departing from Jeddah Islamic Port across pristine Red Sea waters, featuring 5-star hospitality and private balcony suites.</p>
+            </div>
+            <a href="https://wa.me/966565734063" class="btn-srv-whatsapp" data-wa-service="sea">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span data-i18n="inquire_now">Inquire Now</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       The Customer Journey (How it Works)
+       ======================================================================== -->
+  <section class="section-how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge" style="background: rgba(212, 175, 55, 0.2); color: var(--color-gold);" data-i18n="how_badge">Seamless & Transparent Journey</span>
+        <h2 class="section-title" data-i18n="how_title">How Your Journey Begins with MOSAFREEN</h2>
+        <p class="section-subtitle" data-i18n="how_subtitle">Four straightforward steps guaranteeing peace of mind, precision, and speed from inquiry to final fulfillment.</p>
+      </div>
+
+      <div class="how-steps-grid">
+        <div class="how-step-card">
+          <div class="step-num-badge" data-i18n="how_step1_num">01</div>
+          <h4 data-i18n="how_step1_title">Specify Journey via Smart Panel</h4>
+          <p data-i18n="how_step1_desc">Choose your service (flights, sea tickets, cargo, or visas) and enter your destination and dates in the smart engine above.</p>
+        </div>
+
+        <div class="how-step-card">
+          <div class="step-num-badge" data-i18n="how_step2_num">02</div>
+          <h4 data-i18n="how_step2_title">Instant Transfer to Official WhatsApp</h4>
+          <p data-i18n="how_step2_desc">With a single click, a formatted inquiry opens directly with our verified travel advisor on +966 56 573 4063.</p>
+        </div>
+
+        <div class="how-step-card">
+          <div class="step-num-badge" data-i18n="how_step3_num">03</div>
+          <h4 data-i18n="how_step3_title">Receive Verified Quotations & Tariffs</h4>
+          <p data-i18n="how_step3_desc">Your dedicated advisor provides verified flight options, transparent cargo tariffs, and visa procedures without hidden fees.</p>
+        </div>
+
+        <div class="how-step-card">
+          <div class="step-num-badge" data-i18n="how_step4_num">04</div>
+          <h4 data-i18n="how_step4_title">Instant Issuance & Continuous Monitoring</h4>
+          <p data-i18n="how_step4_desc">Receive your tickets, documents, and visas instantly, while our team monitors your flight or shipment around the clock.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Memberships & VIP Club
+       ======================================================================== -->
+  <section class="section-plans" id="plans">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge" data-i18n="plans_section_badge">Elite Memberships</span>
+        <h2 class="section-title" data-i18n="plans_section_title">MOSAFREEN Prestige Club Tiers</h2>
+        <p class="section-subtitle" data-i18n="plans_section_subtitle">Exclusive aviation privileges, negotiated tariffs, and dedicated travel advisory reserved for club members.</p>
+      </div>
+
+      <div class="plans-toggle-wrap">
+        <div class="toggle-switch-container">
+          <button type="button" class="plan-cycle-btn" id="btnBillingMonthly" data-i18n="billing_monthly">Monthly Billing</button>
+          <button type="button" class="plan-cycle-btn active" id="btnBillingAnnual" data-i18n="billing_annually">Annual Billing (Save 15%)</button>
+        </div>
+      </div>
+
+      <div class="plans-grid">
+        <!-- Silver -->
+        <div class="plan-card">
+          <div>
+            <div class="plan-badge-corner"><span class="badge" data-i18n="plan_silver_badge">For Individuals & Families</span></div>
+            <h3 class="plan-name" data-i18n="plan_silver_name">Silver Member</h3>
+            <p class="plan-desc" data-i18n="plan_silver_desc">Ideal for frequent leisure travelers and families seeking attentive customer care and persistent savings.</p>
+            <div class="plan-pricing">
+              <span class="plan-price-val" id="planSilverPrice">1,999</span>
+              <span class="plan-currency" data-i18n="currency">SAR</span>
+              <span class="plan-period plan-period-text" data-i18n="per_year">/ year</span>
+            </div>
+            <ul class="plan-features-list">
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="plan_silver_feat_1">Priority booking with partner airlines & hotels with 5% discount</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="plan_silver_feat_2">Complimentary international visa & family visit consultations</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="plan_silver_feat_3">Instant alerts on lowest flight fares and premium cabin specials</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="plan_silver_feat_4">Dedicated WhatsApp concierge support throughout the week</span></li>
+            </ul>
+          </div>
+          <a href="https://wa.me/966565734063" class="btn-plan-cta" data-wa-service="plan_silver">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span data-i18n="plan_silver_cta">Join Silver Tier</span>
+          </a>
+        </div>
+
+        <!-- Gold (Featured) -->
+        <div class="plan-card featured">
+          <div>
+            <div class="plan-badge-corner"><span class="badge" style="background: var(--color-gold); color: #0b1528;" data-i18n="popular">Most Popular</span></div>
+            <h3 class="plan-name" data-i18n="plan_gold_name">Gold Prestige</h3>
+            <p class="plan-desc" data-i18n="plan_gold_desc">The executive choice for business pioneers and frequent flyers requiring paramount priority and visa facilitation.</p>
+            <div class="plan-pricing">
+              <span class="plan-price-val" id="planGoldPrice" style="color: var(--color-bronze-dark);">4,999</span>
+              <span class="plan-currency" data-i18n="currency">SAR</span>
+              <span class="plan-period plan-period-text" data-i18n="per_year">/ year</span>
+            </div>
+            <ul class="plan-features-list">
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="plan_gold_feat_1">10% discount on luxury global hotels and boutique resorts</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="plan_gold_feat_2">2 complimentary international visa applications annually (fees waived)</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="plan_gold_feat_3">Complimentary annual multi-trip international travel insurance</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="plan_gold_feat_4">15% discount on excess baggage & express air cargo services</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="plan_gold_feat_5">24/7 personal travel advisor on WhatsApp for itinerary amendments</span></li>
+            </ul>
+          </div>
+          <a href="https://wa.me/966565734063" class="btn-plan-cta" data-wa-service="plan_gold">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span data-i18n="plan_gold_cta">Join Gold Prestige</span>
+          </a>
+        </div>
+
+        <!-- Platinum VIP -->
+        <div class="plan-card">
+          <div>
+            <div class="plan-badge-corner"><span class="badge" data-i18n="plan_plat_badge">For Enterprises & Executives</span></div>
+            <h3 class="plan-name" data-i18n="plan_plat_name">Platinum VIP</h3>
+            <p class="plan-desc" data-i18n="plan_plat_desc">Holistic corporate travel & freight solutions for executives, multinational firms, importers, and VIPs.</p>
+            <div class="plan-pricing">
+              <span class="plan-price-val" id="planPlatPrice">12,999</span>
+              <span class="plan-currency" data-i18n="currency">SAR</span>
+              <span class="plan-period plan-period-text" data-i18n="per_year">/ year</span>
+            </div>
+            <ul class="plan-features-list">
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="plan_plat_feat_1">Dedicated 24/7 corporate travel & freight accounts director</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="plan_plat_feat_2">Unlimited China & India visa and corporate permit management</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="plan_plat_feat_3">Special negotiated tariffs on air cargo and maritime container freight</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="plan_plat_feat_4">Waiver of rebooking and schedule amendment fees during emergencies</span></li>
+              <li><i class="fa-solid fa-circle-check"></i> <span data-i18n="plan_plat_feat_5">Complimentary suite upgrades & airport VIP meet & greet lounge access</span></li>
+            </ul>
+          </div>
+          <a href="https://wa.me/966565734063" class="btn-plan-cta" data-wa-service="plan_plat">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span data-i18n="plan_plat_cta">Join Platinum VIP</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Frequently Asked Questions
+       ======================================================================== -->
+  <section class="section-faq" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge" data-i18n="faq_section_badge">Clear Answers</span>
+        <h2 class="section-title" data-i18n="faq_section_title">Frequently Asked Questions</h2>
+        <p class="section-subtitle" data-i18n="faq_section_subtitle">Essential details regarding flight reservations, specialized visa processing, freight logistics, and our procedures.</p>
+      </div>
+
+      <div class="faq-accordion">
+        <div class="faq-item">
+          <button type="button" class="faq-question-btn" aria-expanded="false">
+            <span data-i18n="faq_q1">Do you display unverified fares or confirmed tickets without official booking?</span>
+            <i class="fa-solid fa-chevron-down faq-chevron"></i>
+          </button>
+          <div class="faq-answer-wrap">
+            <div class="faq-answer-inner" data-i18n="faq_a1">
+              In strict adherence to international travel integrity, we do not show fictitious fares or provisional tickets. Our advisors verify real-time seat availability and provide accurate, binding official quotations directly via WhatsApp.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question-btn" aria-expanded="false">
+            <span data-i18n="faq_q2">What visa services are available and how are they processed?</span>
+            <i class="fa-solid fa-chevron-down faq-chevron"></i>
+          </button>
+          <div class="faq-answer-wrap">
+            <div class="faq-answer-inner" data-i18n="faq_a2">
+              We handle a comprehensive consular portfolio: Umrah visas, family visits and extensions, work residency and labor permits, family recruitment applications, security approvals, and specialized visas for China, India, Schengen, UK, and USA.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question-btn" aria-expanded="false">
+            <span data-i18n="faq_q3">What are the processing timelines for India and China visas?</span>
+            <i class="fa-solid fa-chevron-down faq-chevron"></i>
+          </button>
+          <div class="faq-answer-wrap">
+            <div class="faq-answer-inner" data-i18n="faq_a3">
+              Indian e-Visas are 100% digital and typically issued within 48 to 72 hours. Chinese visas (business M, tourist L, and work Z) take 4 to 7 business days, with an expedited express track available in 2 to 3 days.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question-btn" aria-expanded="false">
+            <span data-i18n="faq_q4">How is air cargo pricing calculated for parcels and excess luggage?</span>
+            <i class="fa-solid fa-chevron-down faq-chevron"></i>
+          </button>
+          <div class="faq-answer-wrap">
+            <div class="faq-answer-inner" data-i18n="faq_a4">
+              Air freight tariffs follow official IATA regulations based on actual or volumetric weight (whichever is greater). You can enter dimensions into our engine to receive an itemized quotation including customs clearance.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question-btn" aria-expanded="false">
+            <span data-i18n="faq_q5">What is the official customer communication channel for MOSAFREEN?</span>
+            <i class="fa-solid fa-chevron-down faq-chevron"></i>
+          </button>
+          <div class="faq-answer-wrap">
+            <div class="faq-answer-inner" data-i18n="faq_a5">
+              Our verified and encrypted channel for all customer inquiries, reservations, and updates is: +966 56 573 4063. Our advisors are available 24 hours a day, 7 days a week.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Call To Action Consultation Banner
+       ======================================================================== -->
+  <section class="section-cta-banner" id="contact">
+    <div class="container">
+      <div class="cta-banner-content">
+        <div class="cta-text">
+          <h2 data-i18n="hero_title">Soar to Extraordinary Horizons with MOSAFREEN</h2>
+          <p data-i18n="footer_contact_hours">Customer Concierge & Advisory: 24/7 continuous service via official number +966 56 573 4063</p>
+        </div>
+        <div class="cta-actions">
+          <a href="https://wa.me/966565734063" class="btn-whatsapp-hero" target="_blank" rel="noopener noreferrer" data-wa-service="flight">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span data-i18n="whatsapp_us">WhatsApp Concierge</span>
+          </a>
+          <button type="button" class="btn-secondary-hero" data-open-modal="bookingModal">
+            <i class="fa-solid fa-pen-to-square"></i>
+            <span data-i18n="quick_inquiry">Quick Service Request</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Footer
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand-col">
+          <div class="brand-logo">
+            <div class="logo-icon"><i class="fa-solid fa-plane-departure"></i></div>
+            <div class="brand-text-wrap">
+              <span class="brand-title" data-i18n="brand_name">MOSAFREEN</span>
+              <span class="brand-sub" data-i18n="brand_sub">مسافرين</span>
+            </div>
+          </div>
+          <p data-i18n="footer_desc">
+            Saudi Arabia's premier platform for world-class airline bookings, sea tickets, express air freight, Umrah visas, residency permits, family recruitment, and China & India visas.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title" data-i18n="footer_col_services">Travel & Freight Services</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#services" data-i18n="srv_flights_title">Flight Bookings</a></li>
+            <li><a href="#services" data-i18n="srv_sea_title">Sea Tickets & Cruises</a></li>
+            <li><a href="#services" data-i18n="srv_cargo_title">Express Air Cargo</a></li>
+            <li><a href="#destinations" data-i18n="nav_destinations">Curated Destinations</a></li>
+            <li><a href="#plans" data-i18n="nav_plans">Memberships & Plans</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title" data-i18n="footer_col_visas">Visas & Permits</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#services" data-i18n="srv_umrah_title">Umrah Visas</a></li>
+            <li><a href="#services" data-i18n="srv_family_visit_title">Family Visits</a></li>
+            <li><a href="#services" data-i18n="srv_work_residency_title">Work Residency</a></li>
+            <li><a href="#services" data-i18n="srv_family_recruit_title">Family Recruitment</a></li>
+            <li><a href="#services" data-i18n="srv_security_title">Security Approvals</a></li>
+            <li><a href="#services" data-i18n="srv_china_india_title">China & India Visas</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title" data-i18n="footer_col_contact">Official Channels</h4>
+          <div class="footer-contact-items">
+            <div class="footer-contact-item">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span><strong>+966 56 573 4063</strong></span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <span><strong>+966 56 573 4063</strong></span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <span>info@mosafreen.com</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span data-i18n="footer_contact_address">Kingdom of Saudi Arabia — Riyadh & Jeddah Hubs</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-clock"></i>
+              <span data-i18n="footer_contact_hours">Customer Concierge: 24/7 Round-the-Clock</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div data-i18n="footer_rights">
+          All Rights Reserved © 2026 MOSAFREEN. Designed to international airline hospitality and luxury logistics standards.
+        </div>
+        <div class="footer-legal-links">
+          <a data-open-modal="privacyModal" data-i18n="footer_link_privacy">Privacy Policy</a>
+          <a data-open-modal="termsModal" data-i18n="footer_link_terms">Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Concierge Button (+966 56 573 4063) -->
+  <a href="https://wa.me/966565734063" id="floatingWhatsAppBtn" class="floating-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Concierge" data-wa-service="flight">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span data-i18n="whatsapp_us">WhatsApp Concierge</span>
+  </a>
+
+  <!-- Universal Modal -->
+  <div class="modal-overlay" id="bookingModal">
+    <div class="modal-container">
+      <button type="button" class="modal-close-btn" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+      <div class="modal-header">
+        <h3 class="modal-title" data-i18n="modal_title">Bespoke Service & Booking Request</h3>
+        <p class="modal-subtitle" data-i18n="modal_subtitle">Enter your details below to initiate an immediate, tailored WhatsApp inquiry with our dedicated advisor.</p>
+      </div>
+      <form id="universalInquiryForm" class="modal-form" novalidate>
+        <div class="form-field-group">
+          <label class="field-label" data-i18n="form_full_name">Full Name *</label>
+          <input type="text" id="modalFullName" class="field-input" placeholder="e.g. Johnathan Smith" data-i18n-ph="form_full_name_ph" required />
+          <span class="form-error-msg" id="modalNameError" data-i18n="form_validation_name">Please enter your full name.</span>
+        </div>
+        <div class="form-field-group">
+          <label class="field-label" data-i18n="form_phone">Mobile / WhatsApp Number *</label>
+          <input type="tel" id="modalPhone" class="field-input" placeholder="+966 5X XXX XXXX" data-i18n-ph="form_phone_ph" required />
+          <span class="form-error-msg" id="modalPhoneError" data-i18n="form_validation_phone">Please enter a valid phone number.</span>
+        </div>
+        <div class="form-field-group">
+          <label class="field-label" data-i18n="form_service_select">Requested Service *</label>
+          <select id="modalServiceSelect" class="field-select">
+            <option value="flight" data-i18n="form_service_flight">Flight Booking</option>
+            <option value="sea" data-i18n="form_service_sea">Sea Ticket / Cruise</option>
+            <option value="cargo" data-i18n="form_service_cargo">Air Cargo & Freight</option>
+            <option value="umrah" data-i18n="form_service_umrah">Umrah Visa Services</option>
+            <option value="family_visit" data-i18n="form_service_family_visit">Family Visit Visa & Extension</option>
+            <option value="work_residency" data-i18n="form_service_work_residency">Work Residency & Labor Permits</option>
+            <option value="family_recruit" data-i18n="form_service_family_recruit">Family Recruitment & Dependent Visas</option>
+            <option value="security" data-i18n="form_service_security">Security Approvals & Clearances</option>
+            <option value="china_visa" data-i18n="form_service_china_visa">China Visa (Business / Tourist / Work)</option>
+            <option value="india_visa" data-i18n="form_service_india_visa">India e-Visa (48 Hours)</option>
+            <option value="plan" data-i18n="form_service_plan">MOSAFREEN Prestige Club Membership</option>
+          </select>
+        </div>
+        <div class="form-field-group">
+          <label class="field-label" data-i18n="form_details">Additional Inquiries or Requirements</label>
+          <textarea id="modalDetails" class="field-input" rows="3" placeholder="Enter travel details, dates, or specific requirements..." data-i18n-ph="form_details_ph"></textarea>
+        </div>
+        <button type="submit" class="btn-airline-panel-submit" style="margin-top: 0.5rem;">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span data-i18n="form_btn_submit">Submit Inquiry & Open WhatsApp</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Privacy Modal -->
+  <div class="modal-overlay" id="privacyModal">
+    <div class="modal-container">
+      <button type="button" class="modal-close-btn" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+      <div class="modal-header">
+        <h3 class="modal-title" data-i18n="footer_link_privacy">Privacy Policy — MOSAFREEN</h3>
+      </div>
+      <div style="font-size: 0.95rem; line-height: 1.8; color: var(--color-text-main);">
+        <p>At MOSAFREEN, safeguarding your personal data, itinerary records, and logistics information conforms strictly to premier data security standards in the Kingdom of Saudi Arabia.</p>
+        <p style="margin-top: 0.8rem;">We only collect essential data required to issue confirmed airline bookings, process consular visas with accredited foreign embassies, and facilitate customs clearance for air and maritime freight. Your data is never shared outside official regulatory requirements.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Terms Modal -->
+  <div class="modal-overlay" id="termsModal">
+    <div class="modal-container">
+      <button type="button" class="modal-close-btn" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+      <div class="modal-header">
+        <h3 class="modal-title" data-i18n="footer_link_terms">Terms & Conditions — MOSAFREEN</h3>
+      </div>
+      <div style="font-size: 0.95rem; line-height: 1.8; color: var(--color-text-main);">
+        <p>All flight bookings, maritime tickets, and visa processing services are subject to policies stipulated by partner airlines, port authorities, and respective foreign consulates.</p>
+        <p style="margin-top: 0.8rem;">In strict adherence to transparency and integrity, our travel advisors furnish clients with comprehensive fare conditions, change/refund policies, and binding tariffs prior to any transaction commitment.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="../js/translations.js"></script>
+  <script src="../js/app.js"></script>
+</body>
+</html>
